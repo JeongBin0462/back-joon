@@ -1,6 +1,8 @@
+package 심화1;
+
 import java.util.Scanner;
 
-public class Main {
+public class 크로아티아_알파벳_2941 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String a = sc.nextLine();
