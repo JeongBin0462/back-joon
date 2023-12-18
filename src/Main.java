@@ -1,27 +1,27 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
-        int count = n;
-        for (int i = 0; i < n; i++) {
-            boolean[] arr = new boolean[26];
-            String s = br.readLine();
-            arr[(int)s.charAt(0) - 97] = true;
-            for (int j = 1; j < s.length(); j++) {
-                char c = s.charAt(j);
-                if (c == s.charAt(j-1)) continue;
+        int max = 0;
+        int row = 1;
+        int column = 1;
 
-                if (arr[(int)c - 97]) {
-                    count--;
-                    break;
+        for (int i = 1; i <= 9; i++) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            for (int j = 1; j <= 9; j++) {
+                int num = Integer.parseInt(st.nextToken());
+                if (num > max) {
+                    max = num;
+                    row = i;
+                    column = j;
                 }
-                arr[(int)c - 97] = true;
             }
         }
-        System.out.println(count);
+        System.out.println(max);
+        System.out.println(row + " " + column);
     }
 }
