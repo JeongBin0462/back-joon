@@ -6,22 +6,22 @@ import java.util.StringTokenizer;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int max = 0;
-        int row = 1;
-        int column = 1;
-
-        for (int i = 1; i <= 9; i++) {
+        int total = 0;
+        int n = Integer.parseInt(br.readLine());
+        boolean[][] arr = new boolean[101][101];
+        for (int i = 0; i < n; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            for (int j = 1; j <= 9; j++) {
-                int num = Integer.parseInt(st.nextToken());
-                if (num > max) {
-                    max = num;
-                    row = i;
-                    column = j;
+            int x = Integer.parseInt(st.nextToken());
+            int y = Integer.parseInt(st.nextToken());
+            for (int j = x; j < x+10; j++) {
+                for (int k = y; k < y+10; k++) {
+                    if (!arr[j][k]) {
+                        arr[j][k] = true;
+                        total++;
+                    }
                 }
             }
         }
-        System.out.println(max);
-        System.out.println(row + " " + column);
+        System.out.print(total);
     }
 }
