@@ -1,17 +1,22 @@
+package 일반_수학1;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class 중앙_이동_알고리즘_2903 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int a = Integer.parseInt(br.readLine().trim());
 
-        for (int i = 1; i < a; i++) {
-            for (int j = 0; i == j; j++) {
-                System.out.println("i = " + i);
-                System.out.println("j = " + j);
-            }
+        int math = 2;
+        int b = 0;
+
+        for (int i = 0; i < a; i++) {
+            math = math + (math - 1);
+            b = math * math;
         }
+
+        System.out.println(b);
     }
 }
