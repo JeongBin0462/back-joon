@@ -24,6 +24,7 @@ public class Main {
                     break;
                 }
 
+
             } else {
                 prev_count_sum += cross_count;
                 cross_count++;
