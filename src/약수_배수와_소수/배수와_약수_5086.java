@@ -1,10 +1,11 @@
+package 약수_배수와_소수;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
-
+public class 배수와_약수_5086 {
     public static void main(String[] args) throws IOException {
 
         String f = "factor\n";
@@ -16,7 +17,6 @@ public class Main {
         StringTokenizer st;
 
         while(true) {
-
             st = new StringTokenizer(br.readLine()," ");
 
             int first = Integer.parseInt(st.nextToken());
@@ -33,9 +33,7 @@ public class Main {
             else {
                 sb.append(n);
             }
-
         }
         System.out.println(sb);
     }
-
 }
