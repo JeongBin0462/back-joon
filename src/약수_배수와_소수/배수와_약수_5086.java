@@ -33,7 +33,6 @@ public class 배수와_약수_5086 {
             else {
                 sb.append(n);
             }
-            //?
         }
         System.out.println(sb);
     }
