@@ -1,6 +1,7 @@
-import java.io.*;
+package 브론즈5;
 
-public class Main {
+import java.io.*;
+public class 팩토리얼_10872 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
