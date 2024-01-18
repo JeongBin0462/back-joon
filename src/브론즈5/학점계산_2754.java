@@ -1,6 +1,8 @@
+package 브론즈5;
+
 import java.io.*;
 
-public class Main {
+public class 학점계산_2754 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
