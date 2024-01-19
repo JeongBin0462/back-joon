@@ -7,44 +7,15 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         String a = br.readLine();
-        double score = 0;
 
-        String[] b = a.split("");
+        String[] strArr = a.split(" ");
 
-        if (!b[0].equals("F")) {
-            switch (b[0]) {
-                case "A":
-                    score = 4;
-                    break;
-                case "B":
-                    score = 3;
-                    break;
-                case "C":
-                    score = 2;
-                    break;
-                case "D":
-                    score = 1;
-                    break;
-                default:
-                    score = 0.0;
-                    break;
-            }
+        long num1 = Long.parseLong(strArr[0]);
+        long num2 = Long.parseLong(strArr[1]);
 
-            switch (b[1]) {
-                case "+":
-                    score += 0.3;
-                    break;
-                case "-":
-                    score -= 0.3;
-                    break;
-                default:
-                    break;
-            }
+        long result = (num1 + num2) * (num1 - num2);
 
-            bw.write(String.valueOf(score));
-        } else {
-            bw.write("0.0");
-        }
+        System.out.println(result);
 
         bw.close();
         br.close();
