@@ -1,7 +1,9 @@
+package Class1_plus_plus;
+
 import java.io.*;
 import java.util.Arrays;
 
-public class Main {
+public class 숫자의_개수_2577 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
