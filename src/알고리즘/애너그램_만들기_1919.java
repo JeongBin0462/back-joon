@@ -1,7 +1,9 @@
+package 알고리즘;
+
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class 애너그램_만들기_1919 {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         String a = scanner.nextLine();
