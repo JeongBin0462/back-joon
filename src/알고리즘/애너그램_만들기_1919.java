@@ -19,6 +19,7 @@ public class 애너그램_만들기_1919 {
         System.out.println(ans);
     }
 
+
     private static int[] getAlphabetCount(String str) {
         int[] count = new int[26];
 
