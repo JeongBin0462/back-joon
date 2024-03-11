@@ -1,7 +1,9 @@
+package 알고리즘;
+
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class 단어공부_1157 {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
 
