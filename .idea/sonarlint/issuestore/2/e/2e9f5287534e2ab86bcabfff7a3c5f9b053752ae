@@ -1,11 +1,9 @@
 
-V
-java:S1220""Move this file to a named package.J$2b4192e1-8ccf-4a68-9aba-b3b830209b07
 w
-java:S1854";Remove this useless assignment to local variable "numbers".(´ÖÂ—J$a6aee2be-d119-48b5-a839-fa65ba8a91cd
+java:S1854";Remove this useless assignment to local variable "numbers".(´ÖÂ—J$f026105a-5975-4d32-82e8-3040ae753209
 }
-java:S1854"<Remove this useless assignment to local variable "solution".(ËÊüþÿÿÿÿJ$3c5b1ba1-9d63-428a-9a63-9a682695fd34
+java:S1854"<Remove this useless assignment to local variable "solution".(ËÊüþÿÿÿÿJ$ac49e2fb-1655-4ad9-8d3a-41bbf3029970
 n
-java:S1481"-Remove this unused "solution" local variable.(ËÊüþÿÿÿÿJ$18bb05e6-6f93-4872-b80f-e8d00a93bb15
+java:S1481"-Remove this unused "solution" local variable.(ËÊüþÿÿÿÿJ$f1f17fe8-c059-461b-81ff-e23d70585800
 h
-java:S1481",Remove this unused "numbers" local variable.(´ÖÂ—J$1d166448-f0da-4b96-b726-34e66bbd7124
+java:S1481",Remove this unused "numbers" local variable.(´ÖÂ—J$a6fd825d-8f24-4791-9fa1-f2448713866d

@@ -1,4 +1,4 @@
 
-ˆ	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¯¿Ö½J$26d9eb20-b686-45b7-acd3-05050bc43d2b
+ˆ	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¯¿Ö½J$bc5e113b-58d0-4bee-a40d-2039e859c6cf
 ¨
-java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿ØJ$19cbd5e5-911a-491a-a1b6-d135a50003c0
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿ØJ$07fdb629-9f64-4370-89a7-2f99d3afae8b
