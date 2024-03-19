@@ -1,4 +1,6 @@
 
-ˆ	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·ÉòãJ$6535f27b-9d99-442b-85c9-a2b15fccc444
+ˆ	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·ÉòãJ$4d859b4d-e242-4e5c-8e18-3b74e0f94f0a
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÆºÕé8‡áì¹ã1J$ee41e5a1-5c26-4854-9c23-dc540c581a74
 ¨
-java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿ØJ$9f73f621-0cd8-470e-b843-619c00013131
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿ØJ$aa6c8941-18ce-445a-9203-29a0e796c55e
+l	java:S106"+Replace this use of System.out by a logger.(ü„ê!8¤áì¹ã1J$8824ee1c-a8af-4647-962d-81fc72aa5821

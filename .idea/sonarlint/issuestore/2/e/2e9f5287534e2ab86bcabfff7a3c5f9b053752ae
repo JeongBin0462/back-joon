@@ -1,9 +1,14 @@
 
+]
+java:S1220""Move this file to a named package.8®áì¹ã1J$7d5601e3-3043-4c47-9a87-82c0f7da9ff9
 w
-java:S1854";Remove this useless assignment to local variable "numbers".(´ÖÂ—J$f026105a-5975-4d32-82e8-3040ae753209
+java:S1854";Remove this useless assignment to local variable "numbers".(´ÖÂ—J$544e743f-9367-4172-80c0-9b67f5ac533b
 }
-java:S1854"<Remove this useless assignment to local variable "solution".(ËÊüşÿÿÿÿJ$ac49e2fb-1655-4ad9-8d3a-41bbf3029970
+java:S1854"<Remove this useless assignment to local variable "solution".(ËÊüşÿÿÿÿJ$ba9ff278-6a32-49ff-a1c4-1ae4d8b8feea
 n
-java:S1481"-Remove this unused "solution" local variable.(ËÊüşÿÿÿÿJ$f1f17fe8-c059-461b-81ff-e23d70585800
+java:S1481"-Remove this unused "solution" local variable.(ËÊüşÿÿÿÿJ$41732d69-ba87-4dc5-85ef-5ca1add0f47a
 h
-java:S1481",Remove this unused "numbers" local variable.(´ÖÂ—J$a6fd825d-8f24-4791-9fa1-f2448713866d
+java:S1481",Remove this unused "numbers" local variable.(´ÖÂ—J$05d80f40-0222-470a-b64f-267a8d696e5e
+~	java:S125"<This block of commented-out lines of code should be removed.(ˆ©±8ºáì¹ã1J$755e5002-d18b-45c3-8508-383253e1f541
+ƒ	java:S125
+"<This block of commented-out lines of code should be removed.(—ÎÆ›şÿÿÿÿ8ºáì¹ã1J$d51f1aae-c70a-4cee-a365-fe9e985d702f

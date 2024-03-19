@@ -1,0 +1,6 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(èë®¤ùÿÿÿÿ8Çà‹éâ1J$c6a9fbea-10f1-4c36-ad83-40f3d426cd4b
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÆºÕé8­àì¹ã1J$1b7e4dc6-32d2-437a-b75f-97483c0d17ec
+¯
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8•¿Œéâ1J$b8375042-3654-4f7b-9577-6fbe691a87e8
+r	java:S106"+Replace this use of System.out by a logger.(òœıÿÿÿÿ8÷àì¹ã1J$29cdee5b-61e4-41f3-9bdd-322ae5fc7f4e
