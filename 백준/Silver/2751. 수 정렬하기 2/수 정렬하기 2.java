@@ -14,8 +14,8 @@ public class Main {
             arr[i] = Integer.parseInt(br.readLine());
         }
 
-        int[] array = Arrays.stream(Arrays.stream(arr).toArray()).sorted().toArray();
-        for (int i : array) {
+        int[] sortedArray = Arrays.stream(arr).sorted().toArray();
+        for (int i : sortedArray) {
             bw.write(i + "\n");
         }
 
